@@ -152,7 +152,7 @@ iframe {
   transition: all .5s ease;
 }
 
-.meet-candidate, .issue-headline {
+.meet-candidate, .issue-headline, .history-headline {
   color: #1B5E20;
 }
 
@@ -195,7 +195,7 @@ iframe {
 
 .fixed-nav {
   position: fixed;
-  top: 50%;
+  top: 25%;
 }
 
 .fixed-nav ul {
@@ -232,4 +232,12 @@ iframe {
 .news-headline {
   color: #1B5E20;
   text-align: center;
+}
+
+.history p {
+  font-size: 17px;
+}
+
+.history a {
+  border-bottom: 2px solid #E91E63; 
 }
