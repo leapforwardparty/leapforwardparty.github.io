@@ -1,0 +1,235 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300,300bold);
+@import url(https://fonts.googleapis.com/css?family=Merriweather:300italic);
+@import url(https://fonts.googleapis.com/css?family=Oswald:700);
+
+html, body {
+  font-family: Roboto, sans-serif;
+  height: 100%;
+  background: url('../img/crossword.png');
+}
+
+p {
+  line-height: 1.5em;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-bold {
+  font-weight: bold;
+}
+
+.underline {
+  border-bottom: 2px solid #E91E63;
+}
+
+.italicize {
+  font-style: italic;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.no-margin {
+  margin: 0 !important;
+}
+
+.push-10 {
+  margin-bottom: 10px !important;
+}
+
+.push-50 {
+  margin-bottom: 50px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  height: auto;
+}
+
+iframe {
+  display: block;
+  margin: 0 auto;
+}
+
+.header-bar {
+  background: #1B5E20;
+  color: white;
+  font-family: Merriweather, serif;
+  font-style: italic;
+  padding: 20px;
+}
+
+.navigation {
+  background: #2E7D32;
+  color: white;
+  text-align: center;
+  font-size: 16px;
+  padding: 10px;
+}
+
+.navigation a {
+  transition: all .5s ease;
+}
+
+.navigation a:hover, a.active {
+  border-bottom: 1px solid #E91E63;
+  transition: all .5s ease;
+}
+
+.footer {
+  background: #1B5E20;
+  color: white;
+  font-family: Merriweather, serif;
+}
+
+.socialIcons h3 {
+  text-align: center;
+}
+
+.socialIcons a {
+  border-bottom: 2px solid #E91E63;
+}
+
+.hero {
+  background: #388E3C url('../img/bg.png') center center;
+  background-size: cover;
+  color: white;
+  min-height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.leap-forward-header {
+  font-family: Oswald, sans-serif;
+  font-size: 108px;
+  font-weight: 400;
+}
+
+.separator-border {
+  border-bottom: 2px solid #E91E63;
+  width: 30%;
+  display: block;
+  margin: 0 auto;
+}
+
+.vote-for {
+  font-size: 48px;
+  margin-top: 10px;
+}
+
+.learn-more {
+  background: #E91E63;
+  color: white;
+  border: none;
+  outline: none;
+  padding: 7px;
+  display: block;
+  margin: 0 auto;
+  font-size: 18px;
+  transition: all .5s ease;
+}
+
+.learn-more:hover {
+  background: white;
+  color: #E91E63;
+
+  transition: all .5s ease;
+}
+
+.meet-candidate, .issue-headline {
+  color: #1B5E20;
+}
+
+.introduce-candidate {
+  font-size: 20px;
+  line-height: 1.5em;
+}
+
+.main-points {
+  font-size: 20px;
+}
+
+.main-points .row {
+  margin: 10px;
+}
+
+.register {
+  background: #E91E63;
+  color: white;
+  border: none;
+  outline: none;
+  padding: 7px;
+  display: block;
+  width: 50%;
+  margin: 0 auto;
+  font-size: 18px;
+  transition: all .5s ease;
+}
+
+.register:hover {
+  background: white;
+  color: #E91E63;
+
+  transition: all .5s ease;
+}
+
+.issue-header {
+  text-align: center;
+}
+
+.fixed-nav {
+  position: fixed;
+  top: 50%;
+}
+
+.fixed-nav ul {
+  list-style-type: none;
+}
+
+.fixed-nav ul li {
+  margin: 5px;
+}
+
+.fixed-nav ul li a {
+  transition: all 0.5s ease;  
+}
+
+.fixed-nav ul li a:hover {
+  font-weight: bold;
+  color: #E91E63;
+
+  transition: all 0.5s ease;
+}
+
+.issues p, ul {
+  font-size: 17px;
+}
+
+.issues a {
+  border-bottom: 2px solid #E91E63;
+}
+
+.news {
+  font-size: 16px;
+}
+
+.news-headline {
+  color: #1B5E20;
+  text-align: center;
+}
